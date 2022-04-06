@@ -1,0 +1,63 @@
+@media all and (max-width: 2500px) {
+  .tableBody {
+    background: rgb(235, 245, 243);
+  }
+  .mainTable {
+    width: 33%;
+    background: white;
+    padding: 0 1vw 2vh 1vw;
+  }
+  .tableH1 {
+    text-align: center;
+    padding: 1.4vh 0 0 0;
+    margin-bottom: 2vh;
+  }
+  .tablehr {
+    background-color: rgb(0, 0, 0, 0.1);
+    margin: 0 0 0 0;
+  }
+  .section {
+    color: rgb(0, 0, 0, 0.7);
+  }
+  .tableRow {
+    margin: 0 0 2vh 0;
+    display: grid;
+    grid-template-columns: 96% 4%;
+    align-items: center;
+  }
+  .td,
+  .td2 {
+    margin: 0;
+  }
+  .circle1 {
+    background: red;
+    height: 50%;
+    border-radius: 50%;
+  }
+  .circle2 {
+    background: rgb(35, 180, 164);
+    height: 50%;
+    border-radius: 50%;
+  }
+  .eachRow {
+    margin: 0 0 0 2vh;
+  }
+}
+
+@media all and (max-width: 1300px) {
+  .mainTable {
+    width: 50%;
+  }
+}
+
+@media all and (max-width: 1030px) {
+  .mainTable {
+    width: 70%;
+    padding: 0 2vw 2vh 2vw;
+  }
+}
+@media all and (max-width: 700px) {
+  .mainTable {
+    width: 90%;
+  }
+}
